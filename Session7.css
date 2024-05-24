@@ -1,0 +1,179 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+.parent {
+    display: flex;
+    background-color: tomato;
+    width:100%;
+    height:100vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column-reverse;
+}
+.child1 {
+background-color: blue;
+}
+.child2 {
+    background-color: red;
+}
+.child3 {
+    background-color:green;
+}
+.child4 {
+    background-color:yellow;
+}
+.child {
+    height: 200px;
+    width: 20%;
+} */
+
+* {
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    padding: 1px;
+    margin: 0px;
+}
+.home {
+    display: flex;
+    background-image: url(Welcome.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+}
+.home .navbar{
+    height: 60px;
+    padding: 40px;
+}
+
+.home .navbar .navlogo img{
+    width: 300px;
+    float: left;
+}
+
+.home .navbar .navmenu{
+    float: right;
+}
+
+.navbar .navmenu li{
+    display: inline-block;
+}
+
+
+.navbar .navmenu li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    color: white;
+    padding-left: 30px;
+}
+.home .caption{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    flex-direction: column;
+    font-size: x-large;
+    color: white;
+    padding-top: 200px;
+}
+.all-btn {
+ margin-top: 30px;  
+}
+
+.btn1{
+    visibility: visible;
+    padding: 20px 20px 20px 20px; 
+    letter-spacing: 0px;
+    font-size: 16px;
+    opacity: 80%;
+    color: white;
+    background-color: rgb(176, 127, 62);
+    border: 1px solid burlywood transparent;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.btn1:hover{
+    opacity: 100%;
+    background-color:white;
+    color: black;
+}
+.btn2{
+    visibility: visible;
+    padding: 20px 20px 20px 20px; 
+    letter-spacing: 0px;
+    font-size: 16px;
+    opacity: 100%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid burlywood transparent;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.btn2:hover{
+    background-color:white;
+    color: black;
+}
+#who-we-are {
+    margin-top: 80px;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    width:100%;
+    gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+}
+#who-we-are .text{
+    margin-left: 50px;
+}
+#who-we-are .image{
+    margin-left: 50px;
+
+}
+.our-location{
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    width:100%;
+    gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+}
+.our-baking{
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    width:100%;
+    gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+.footer{
+    background-color: rgb(57, 51, 47);
+    text-align: center;
+    padding: 30px;
+}
+.foot-in{
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.social-media{
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
